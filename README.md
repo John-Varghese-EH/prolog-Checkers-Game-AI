@@ -1,8 +1,6 @@
 # Checkers AI (Prolog + Negamax)
 
-![Checkers AI Banner](assets/checkers_ai_banner.png)
-
-## 🧠 Declarative AI: The Negamax Search Engine
+## Declarative AI: The Negamax Search Engine
 
 This project demonstrates the power of **Logic Programming** in solving complex adversarial search problems. By leveraging **Prolog's** inherent backtracking and unification capabilities, we implement a robust **Checkers AI** driven by the **Negamax** algorithm—an elegant variant of Minimax. Unlike imperative implementations that require verbose state management, this declarative approach allows us to define *what* a valid move is and *how* to evaluate a board state, letting the Prolog engine handle the "how" of the search tree traversal. The result is a compact, high-performance decision engine that explores thousands of future game states to execute optimal strategies against a human opponent.
 
