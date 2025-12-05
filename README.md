@@ -135,6 +135,10 @@ Adjust the depth parameter for stronger/faster play:
 ?- negamax(Board, 5, -10000, 10000, Score).
 ```
 
+## Problem Statement
+
+The project addresses the problem of designing an intelligent agent that can play the game of Checkers optimally against a human opponent. The search space of Checkers grows combinatorially with depth, making exhaustive search infeasible on typical hardware. The goal is to model Checkers as an adversarial search problem and build an AI player in Prolog that uses Negamax with alpha–beta pruning and a heuristic evaluation function to efficiently choose strong moves under depth and time constraints. This demonstrates how logic programming and informed search can be applied to complex, competitive decision-making tasks in the domain of board games.
+
 ## Troubleshooting
 
 **Issue**: `ERROR: source_sink 'src/checkers.pl' does not exist`
