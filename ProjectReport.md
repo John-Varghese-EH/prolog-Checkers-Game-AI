@@ -17,11 +17,10 @@
 5. [Algorithm Analysis](#algorithm-analysis)
 6. [Testing & Validation](#testing--validation)
 7. [Performance Metrics](#performance-metrics)
-8. [Screenshots & Demonstrations](#screenshots--demonstrations)
-9. [Challenges & Solutions](#challenges--solutions)
-10. [Future Enhancements](#future-enhancements)
-11. [Conclusion](#conclusion)
-12. [References](#references)
+8. [Challenges & Solutions](#challenges--solutions)
+9. [Future Enhancements](#future-enhancements)
+10. [Conclusion](#conclusion)
+11. [References](#references)
 
 ---
 
@@ -35,6 +34,12 @@ This project implements a declarative Checkers AI using **Prolog** and the **Neg
 -  Declarative board representation and rules system
 -  Heuristic evaluation function for strategic play
 -  Clean and maintainable code base well documented
+
+---
+
+## Problem Statement
+
+The project addresses the problem of designing an intelligent agent that can play the game of Checkers optimally against a human opponent. The search space of Checkers grows combinatorially with depth, making exhaustive search infeasible on typical hardware. The goal is to model Checkers as an adversarial search problem and build an AI player in Prolog that uses Negamax with alpha–beta pruning and a heuristic evaluation function to efficiently choose strong moves under depth and time constraints. This demonstrates how logic programming and informed search can be applied to complex, competitive decision-making tasks in the domain of board games.
 
 ---
 
